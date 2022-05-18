@@ -1,4 +1,4 @@
-FROM rust:slim as build
+FROM rust:latest as build
 
 WORKDIR /build
 
